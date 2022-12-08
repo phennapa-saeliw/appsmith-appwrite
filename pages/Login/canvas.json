@@ -350,7 +350,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "Image1",
-                      "onClick": "{{navigateTo('http://8080-appwrite-integrationfor-rohxlsf0tfw.ws-us78.gitpod.io/v1/account/sessions/oauth2/google',{\n\tprovider : 'google',\n\t\tproject: '6391644572b6c93dc14e',\n\t\t\tsuccess: 'https://app.appsmith.com/app/appwrite/login-63904a00d9681172b41db8c6/edit?branch=master#y8c6o9ksm7'\n}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('http://8080-appwrite-integrationfor-rohxlsf0tfw.ws-us78.gitpod.io/v1/account/sessions/oauth2/google',{\n\tprovider : 'google',\n\t\tproject: '6391644572b6c93dc14e',\n\t\t\tsuccess: 'https://app.appsmith.com/app/appwrite/main-6391921c6b75d6679991853d?branch=master',\n\tfailure: 'https://app.appsmith.com/app/appwrite/login-63904a00d9681172b41db8c6?branch=master'\n}, 'SAME_WINDOW')}}",
                       "dynamicPropertyPathList": [
                         {
                           "key": "onClick"
