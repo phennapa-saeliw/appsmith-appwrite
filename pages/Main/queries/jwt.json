@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "create_document",
+    "name": "jwt",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v1/databases/63918244041b509905d8/collections/6391824c474876035d00/documents",
+      "path": "/v1/account/jwt",
       "headers": [
         {
           "key": "content-type",
@@ -37,7 +37,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"documentId\" : \"unique()\",\n\t\"data\" : {\n\t\t\"title\" : \"Title 02\",\n\t\t\"category_id\" : \"6391a13ca9e3a4045954\",\n\t\t\"content\" : \"adasdasdasdasdad\",\n\t\t\"image\" : \"https://appwrite.io/images/appwrite.svg\"\n\t}\n}",
+      "body": "",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -67,7 +67,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Main_create_document",
+  "id": "Main_jwt",
   "deleted": false,
-  "gitSyncId": "63904a00d9681172b41db8c3_63919df64b95806da2da3b55"
+  "gitSyncId": "63904a00d9681172b41db8c3_6391b21ae77ccb59f687e4ca"
 }

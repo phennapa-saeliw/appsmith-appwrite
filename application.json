@@ -17,6 +17,9 @@
   "unpublishedAppLayout": {
     "type": "MOBILE"
   },
+  "publishedAppLayout": {
+    "type": "MOBILE"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,

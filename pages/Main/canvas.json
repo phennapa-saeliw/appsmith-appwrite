@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2210,
+          "bottomRow": 2130,
           "containerStyle": "none",
           "snapRows": 74,
           "parentRowSpace": 1,
@@ -34,8 +34,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 8,
-              "bottomRow": 213,
+              "topRow": 0,
+              "bottomRow": 205,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -44,7 +44,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 5.28125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 0,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -61,10 +61,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "{{appsmith.store.user}}",
+              "text": "{{appsmith.store.header}}",
               "key": "u0i3ryzw9j",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 63,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "6sic4l5v95",
@@ -78,7 +78,7 @@
               "originalTopRow": 8,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 222,
+              "originalBottomRow": 213,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             }
